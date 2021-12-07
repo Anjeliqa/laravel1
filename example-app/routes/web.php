@@ -1,6 +1,6 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\route;
 
 /*
 |--------------------------------------------------------------------------
@@ -59,4 +59,12 @@ Route::get('/fixed_sidebar.html', function () {
 
 Route::get('/fixed_footer.html', function () {
     return view('fixed_footer');
+});
+
+Route::get('/form_kurir.html', function () {
+    return view('form_kurir');
+});
+
+Route::get('/form_beli.html', function () {
+    return view('form_beli');
 });

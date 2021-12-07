@@ -71,7 +71,7 @@
 									<ul class="nav child_menu">
 										<li><a href="form.html">Form Penjual </a></li>
 										<li><a href="form_kurir.html">Form Pengirim </a></li>
-										<li><a href="form_beli.html">Form Pembeli </a></li>
+                                        <li><a href="form_beli.html">Form Pembeli </a></li>
 									</ul>
 								</li>
 								<li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
@@ -203,7 +203,7 @@
 				<div class="">
 					<div class="page-title">
 						<div class="title_left">
-							<h3>Form Penjual</h3>
+							<h3>Form Pengiriman</h3>
 						</div>
 
 					</div>
@@ -281,8 +281,8 @@
 												<input type="text" id="first-name" required="required" class="form-control ">
 											</div>
 										</div>
-										<div class="item form-group">
-											<label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">Barang yang akan dijual <span class="required">*</span>
+                                        <div class="item form-group">
+											<label class="col-form-label col-md-3 col-sm-3 label-align" for="first-name">No.Rekening <span class="required">*</span>
 											</label>
 											<div class="col-md-6 col-sm-6 ">
 												<input type="text" id="first-name" required="required" class="form-control ">
