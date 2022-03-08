@@ -1,7 +1,8 @@
 <?php
 
-use Illuminate\Support\Facades\route;
-
+use App\Http\Controllers\viewcontroller;
+use App\Http\Controllers\tokoterdaftarcontroller;
+use Illuminate\Support\Facedas\Router;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,6 +13,7 @@ use Illuminate\Support\Facades\route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/tables','tokoterdaftarController@index');
 
 Route::get('/', function () {
     return view('index');

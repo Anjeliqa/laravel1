@@ -1,6 +1,8 @@
 <?php
 
 namespace App\Http\Controllers;
+Route::resource('return', tokoterdaftar::class);
+namespace App\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
